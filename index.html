@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Elias Chowdhury</title>
-<meta name="description" content="Elias Chowdhury is a finance and banking professional with experience in loans and advances at Janata Bank Ltd. and AB Bank Ltd. in Bangladesh. MBA in Finance, University of Chittagong.">
-<meta name="author" content="Elias Chowdhury">
+<title>Md. Elias Chowdhury</title>
+<meta name="description" content="Md. Elias Chowdhury is a graduate student in Agribusiness and Applied Economics at North Dakota State University, with more than eight years of experience in agricultural finance.">
+<meta name="author" content="Md. Elias Chowdhury">
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Elias Chowdhury">
-<meta property="og:description" content="Finance and banking professional. MBA in Finance, University of Chittagong.">
+<meta property="og:title" content="Md. Elias Chowdhury">
+<meta property="og:description" content="Graduate student in Agribusiness and Applied Economics at North Dakota State University, with more than eight years of experience in agricultural finance.">
 <meta property="og:url" content="https://elias-chowdhury-1989.github.io/">
 <link rel="canonical" href="https://elias-chowdhury-1989.github.io/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ctext x='32' y='43' font-family='Georgia,Times New Roman,serif' font-size='30' text-anchor='middle' fill='%23fff'%3EEC%3C/text%3E%3C/svg%3E">
@@ -19,11 +19,16 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Elias Chowdhury",
-  "email": "mailto:eliasmba.cu@gmail.com",
+  "name": "Md. Elias Chowdhury",
+  "alternateName": "Elias Chowdhury",
+  "email": "mailto:mdelias.chowdhury@ndsu.edu",
   "url": "https://elias-chowdhury-1989.github.io/",
+  "affiliation": { "@type": "CollegeOrUniversity", "name": "North Dakota State University" },
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Chittagong" },
-  "sameAs": ["https://github.com/Elias-Chowdhury-1989"]
+  "sameAs": [
+    "https://www.linkedin.com/in/md-elias-chowdhury-49b885131",
+    "https://github.com/Elias-Chowdhury-1989"
+  ]
 }
 </script>
 <style>
@@ -95,16 +100,27 @@
     border-top: 1px solid var(--ink);
     scroll-margin-top: 1rem;
   }
-  section > h2 { font-size: 1.125rem; font-weight: 600; line-height: 1.62; margin: 0; }
+  section > h2 { font-size: 1.125rem; font-weight: 600; line-height: 1.4; margin: 0.15rem 0 0; }
   .body { max-width: 38rem; }
   .body > :last-child { margin-bottom: 0; }
+  .body h3 { font-size: 1.125rem; font-weight: 600; font-style: italic; margin: 0 0 0.75rem; }
+  .body h3:not(:first-child) { margin-top: 1.75rem; }
 
-  /* Experience and education */
-  .entries { list-style: none; margin: 0; padding: 0; }
-  .entries li { margin: 0 0 1rem; }
-  .entries li:last-child { margin-bottom: 0; }
+  /* Entries: education, experience, certifications */
+  .entries { list-style: none; margin: 0 0 1rem; padding: 0; }
+  .entries:last-child { margin-bottom: 0; }
+  .entries > li { margin: 0 0 1.25rem; }
+  .entries > li:last-child { margin-bottom: 0; }
   .entries .what { display: block; font-weight: 600; }
   .entries .where { display: block; }
+  .entries .when { display: block; font-style: italic; color: var(--muted); }
+  .duties { list-style: disc; margin: 0.5rem 0 0; padding-left: 1.1rem; }
+  .duties li { margin: 0 0 0.35rem; }
+  .duties li:last-child { margin-bottom: 0; }
+
+  .list { margin: 0; padding-left: 1.1rem; }
+  .list li { margin: 0 0 0.4rem; }
+  .list li:last-child { margin-bottom: 0; }
 
   /* Skills */
   .skills { margin: 0; }
@@ -123,7 +139,7 @@
   @media (max-width: 760px) {
     body { font-size: 1.0625rem; }
     section { grid-template-columns: 1fr; row-gap: 0.9rem; padding: 1.75rem 0 2rem; }
-    section > h2 { font-size: 1.3rem; line-height: 1.3; }
+    section > h2 { font-size: 1.3rem; line-height: 1.3; margin: 0; }
     .body { hyphens: auto; }
   }
 
@@ -144,16 +160,20 @@
 <div class="page">
 
   <header class="masthead">
-    <h1>Elias Chowdhury</h1>
-    <p class="lead">Finance and banking professional with experience in loans and advances.</p>
+    <h1>Md. Elias Chowdhury</h1>
+    <p class="lead">Graduate student in Agribusiness and Applied Economics at North Dakota State University, with more than eight years of experience in agricultural finance.</p>
     <p class="links">
-      <a href="mailto:eliasmba.cu@gmail.com">eliasmba.cu@gmail.com</a>
+      <a href="mailto:mdelias.chowdhury@ndsu.edu">mdelias.chowdhury@ndsu.edu</a>
+      <a href="https://www.linkedin.com/in/md-elias-chowdhury-49b885131">LinkedIn</a>
       <a href="https://github.com/Elias-Chowdhury-1989">GitHub</a>
     </p>
     <nav class="sections" aria-label="Sections">
       <a href="#about">About</a>
-      <a href="#experience">Experience</a>
+      <a href="#interests">Research interests</a>
       <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#activities">Activities</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -164,22 +184,18 @@
     <section id="about" aria-labelledby="about-h">
       <h2 id="about-h">About</h2>
       <div class="body">
-        <p>I am a finance and banking professional with experience in loans and advances at two commercial banks in Bangladesh. I hold an MBA in Finance from the University of Chittagong and professional banking diplomas from the Institute of Bankers, Bangladesh.</p>
+        <p>I am an M.S. student in the Department of Agribusiness and Applied Economics at North Dakota State University. I have more than eight years of experience in banking in Bangladesh, specializing in agricultural finance at Janata Bank PLC and AB Bank PLC.</p>
+        <p>I see the M.S. as a step toward a Ph.D. in the field. My goal is to advance research on sustainable agricultural practices and economic development, building on my background in finance and agriculture.</p>
       </div>
     </section>
 
-    <section id="experience" aria-labelledby="experience-h">
-      <h2 id="experience-h">Experience</h2>
+    <section id="interests" aria-labelledby="interests-h">
+      <h2 id="interests-h">Research interests</h2>
       <div class="body">
-        <ul class="entries">
-          <li>
-            <span class="what">Senior Officer, Loans and Advances</span>
-            <span class="where">Janata Bank Ltd., Bangladesh</span>
-          </li>
-          <li>
-            <span class="what">Principal Officer</span>
-            <span class="where">AB Bank Ltd., Bangladesh</span>
-          </li>
+        <ul class="list">
+          <li>Agricultural policy and development</li>
+          <li>Sustainable agribusiness practices</li>
+          <li>Economic impact of financial inclusion</li>
         </ul>
       </div>
     </section>
@@ -189,17 +205,100 @@
       <div class="body">
         <ul class="entries">
           <li>
+            <span class="what">M.S., Agribusiness and Applied Economics</span>
+            <span class="where">North Dakota State University, Fargo, North Dakota</span>
+            <span class="when">Expected 2027</span>
+          </li>
+          <li>
             <span class="what">MBA, Finance</span>
             <span class="where">University of Chittagong, Bangladesh</span>
+            <span class="when">2015</span>
           </li>
           <li>
             <span class="what">BBA, Finance and Banking</span>
             <span class="where">University of Chittagong, Bangladesh</span>
+            <span class="when">2014</span>
+          </li>
+        </ul>
+        <p>Relevant coursework: Corporate Finance, Agricultural Economics, International Trade, Financial Risk Management.</p>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-h">
+      <h2 id="experience-h">Experience</h2>
+      <div class="body">
+        <ul class="entries">
+          <li>
+            <span class="what">Senior Officer</span>
+            <span class="where">Janata Bank PLC, WASA Corporate Branch, Chattogram, Bangladesh</span>
+            <span class="when">June 2019 &ndash; present</span>
+            <ul class="duties">
+              <li>Managed a portfolio of agri-finance clients, providing tailored financial solutions that promote sustainable agricultural practices.</li>
+              <li>Conducted risk assessments and developed strategies to expand financial inclusion in rural communities.</li>
+              <li>Worked with cross-functional teams to design financial products aligned with market trends and client needs.</li>
+              <li>Trained junior staff in financial analysis and customer service.</li>
+              <li>Reached new agri-finance customers by informing them about existing lending policies, increasing loan disbursement by 20%.</li>
+              <li>Led a project to digitize client onboarding, reducing processing time by two days.</li>
+            </ul>
           </li>
           <li>
-            <span class="what">Professional banking diplomas (DAIBB, JAIBB)</span>
-            <span class="where">Institute of Bankers, Bangladesh</span>
+            <span class="what">Principal Officer</span>
+            <span class="where">AB Bank PLC, Dhaka, Bangladesh</span>
+            <span class="when">December 2016 &ndash; May 2019</span>
+            <ul class="duties">
+              <li>Analyzed financial statements to assess the creditworthiness of agricultural and SME loan applicants.</li>
+              <li>Built long-term relationships with clients.</li>
+            </ul>
           </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certifications" aria-labelledby="certifications-h">
+      <h2 id="certifications-h">Certifications and training</h2>
+      <div class="body">
+        <h3>Certifications</h3>
+        <ul class="entries">
+          <li>
+            <span class="what">Diplomaed Associate of the Institute of Bankers, Bangladesh (DAIBB)</span>
+            <span class="when">December 2021</span>
+          </li>
+          <li>
+            <span class="what">Junior Associate of the Institute of Bankers, Bangladesh (JAIBB)</span>
+            <span class="when">December 2019</span>
+          </li>
+          <li>
+            <span class="what">Machine Learning in Python</span>
+            <span class="where">IT Incubator, Chittagong University of Engineering and Technology (CUET)</span>
+          </li>
+          <li>
+            <span class="what">Basic Python (EDGE)</span>
+            <span class="where">IT Incubator, Chittagong University of Engineering and Technology (CUET)</span>
+          </li>
+        </ul>
+        <h3>Training</h3>
+        <ul class="entries">
+          <li>
+            <span class="what">Credit Risk Management</span>
+            <span class="where">Bangladesh Bank, Chattogram Office</span>
+            <span class="when">December 2024</span>
+          </li>
+          <li>
+            <span class="what">Foundation Training on General Banking, Credit and Foreign Trade</span>
+            <span class="where">Janata Bank Staff College, Dhaka</span>
+            <span class="when">November &ndash; December 2021</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="activities" aria-labelledby="activities-h">
+      <h2 id="activities-h">Activities</h2>
+      <div class="body">
+        <ul class="list">
+          <li>Organizer, Financial Literacy Workshop for Farmers, Janata Bank PLC</li>
+          <li>Volunteer, Microfinance Awareness Campaign, Rural Development Program, Bangladesh Bank</li>
+          <li>Member, Finance Banking Debate Club</li>
         </ul>
       </div>
     </section>
@@ -208,12 +307,10 @@
       <h2 id="skills-h">Skills</h2>
       <div class="body">
         <dl class="skills">
-          <dt>Banking</dt>
-          <dd>Loans and advances, financial administration, budget administration, account recording, documentation and reporting</dd>
-          <dt>Software</dt>
-          <dd>Microsoft Word, Excel and PowerPoint</dd>
+          <dt>Technical</dt>
+          <dd>Financial modeling, risk analysis, Microsoft Excel, statistical analysis in Python</dd>
           <dt>Languages</dt>
-          <dd>Bengali (native), English</dd>
+          <dd>English (proficient), Bengali (native)</dd>
         </dl>
       </div>
     </section>
@@ -221,9 +318,13 @@
     <section id="contact" aria-labelledby="contact-h">
       <h2 id="contact-h">Contact</h2>
       <div class="body">
-        <p>Email: <a href="mailto:eliasmba.cu@gmail.com">eliasmba.cu@gmail.com</a><br>
+        <p>Department of Agribusiness and Applied Economics<br>
+        North Dakota State University, Fargo, North Dakota</p>
+        <p>Email: <a href="mailto:mdelias.chowdhury@ndsu.edu">mdelias.chowdhury@ndsu.edu</a><br>
+        Personal email: <a href="mailto:eliasmba.cu@gmail.com">eliasmba.cu@gmail.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/md-elias-chowdhury-49b885131">md-elias-chowdhury-49b885131</a><br>
         GitHub: <a href="https://github.com/Elias-Chowdhury-1989">Elias-Chowdhury-1989</a></p>
-        <p>A full CV is available on request.</p>
+        <p>References are available on request.</p>
       </div>
     </section>
 
